@@ -271,7 +271,7 @@ function template_replies()
 	global $context, $settings, $options, $txt, $scripturl, $modSettings;
 
 	echo '
-	<div id="recent">';
+	<div class="container-fluid" id="recent">';
 
 	$showCheckboxes = !empty($options['display_quick_mod']) && $options['display_quick_mod'] == 1 && $settings['show_mark_read'];
 
