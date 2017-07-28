@@ -156,6 +156,16 @@ table.table_list tbody.content td.icon {
 
 /* Still boards */
 
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 3px !important;
+    margin-bottom: 10px;
+}
+
 div.cat_bar {
     height: 41px;
     border-radius: 6px 6px 0 0;
